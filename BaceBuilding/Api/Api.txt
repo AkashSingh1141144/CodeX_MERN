@@ -1,0 +1,25 @@
+What is API ? --------------------------------------->
+
+An API (Application Programming Interface) is a set of rules that allows two software applications to talk to each other. It acts like a messenger that takes a request from one program, sends it to another, and then returns the response.
+
+💡 Simple Example:
+Imagine you are at a restaurant:
+You (the user) look at the menu (the front-end).
+You place an order to the waiter (the API).
+The waiter takes your order to the kitchen (the back-end).
+The kitchen prepares the food and the waiter brings it back to you.
+Here, the waiter is the API — he connects the customer (user interface) and the kitchen (server).
+
+🛠️ What API Does:
+Sends requests to the server (like "Get data", "Add data", "Delete data")
+
+Receives data from the server and gives it to the front-end
+
+Makes communication between front-end and back-end easier and safer
+
+📱 Real-Life Examples:
+Weather apps use APIs to get weather data from a weather server
+
+Login with Google/Facebook uses APIs to connect to those services
+
+Online payment systems like Razorpay or PayPal use APIs to process payments

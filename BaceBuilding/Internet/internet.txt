@@ -1,0 +1,13 @@
+what is internet ? -------------------------->
+The Internet is a large network that connects millions of computers, mobile phones, and other devices across the world. It allows people to share information, communicate, and access various services from anywhere and at any time. With the help of the internet, we can browse websites, watch videos, send emails, talk to people through messages or video calls, and use social media platforms like Facebook, Instagram, and WhatsApp.
+
+The internet works through a system of servers, routers, and cables that pass data from one place to another using special rules called protocols (mainly TCP/IP). We can connect to the internet using Wi-Fi, mobile data, or wired connections through an Internet Service Provider (ISP).
+
+The internet is used in almost every field today such as education, business, banking, entertainment, and communication. It has made the world a smaller place by connecting people from different parts of the world easily and quickly.
+
+🔧 How it Works:----------------------------------->
+Devices (like computers or phones) connect to the Internet using an Internet Service Provider (ISP).
+
+Information is broken into small data packets and sent across different routes.
+
+These packets travel through routers, servers, and networks until they reach their destination.

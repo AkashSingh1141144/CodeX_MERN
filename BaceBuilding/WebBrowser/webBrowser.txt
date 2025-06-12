@@ -1,0 +1,21 @@
+what is web browser ? ------------------------------------->
+
+A web browser is a software application that allows us to access and view websites on the Internet. It helps us open web pages, search for information, watch videos, read news, and use online services.
+
+Some of the most popular web browsers are:
+
+Google Chrome
+Mozilla Firefox
+Microsoft Edge
+Safari (used in Apple devices)
+Opera
+
+When we type a website address (like www.google.com) into the browser, it sends a request to a server and then displays the website on the screen. Web browsers can also open multiple websites at the same time using tabs.
+
+🔧 Main Functions of a Web Browser:
+
+Displays web pages (text, images, videos)
+Downloads files from the internet
+Stores history of visited sites
+Supports bookmarks to save favorite websites
+Ensures security through features like HTTPS and private browsing

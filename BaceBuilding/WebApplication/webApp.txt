@@ -1,0 +1,20 @@
+what is Web Application ? -------------------------------------->
+
+A web application is a software or program that runs in a web browser. It is accessed through the Internet using websites like Google Chrome, Firefox, or Safari. Unlike traditional software that needs to be installed on a computer, a web application runs online, and users can use it just by visiting a website.
+
+Some common examples of web applications are:
+
+Gmail – for sending and receiving emails
+Google Docs – for writing and editing documents online
+YouTube – for watching and uploading videos
+Facebook or Instagram – for social networking
+
+Web applications work on both computers and mobile phones. They usually have two parts:
+Front-end – What the user sees (buttons, text boxes, images)
+Back-end – Where the actual data is processed and stored (on a server)
+
+A web application requires:
+A web server to manage requests
+A database to store information
+
+Client-side and server-side coding to make it work
