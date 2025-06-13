@@ -1,0 +1,21 @@
+✅ What is a List in HTML?
+A list is used to display a group of related items in a structured way.
+
+HTML supports three main types of lists:
+
+List Type	Tag Used	Meaning
+✅ Ordered List	<ol>	Numbered list (1, 2, 3...)
+✅ Unordered List	<ul>	Bulleted list (•, –, *)
+✅ Description List	<dl>	Terms and definitions
+
+🔹 1. Ordered List (<ol>)
+Items are numbered automatically
+Use for steps, instructions, ranking
+
+🔹 2. Unordered List (<ul>)
+Items are bulleted
+Use for simple lists (grocery, points)
+
+🔹 3. Description List (<dl>, <dt>, <dd>)
+Used for terms and their definitions
+Not numbered or bulleted

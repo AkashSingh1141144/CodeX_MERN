@@ -1,0 +1,29 @@
+What is Html ? 
+
+HTML is a markup language that is used to create the basic structure of a webpage by using a set of tags. It helps browsers understand how to display content such as text, images, videos, links, and other media on a website.
+
+🔹 Full Form of HTML:
+H – Hyper
+
+T – Text
+
+M – Markup
+
+L – Language
+
+HyperText means linking one webpage to another.
+Markup Language means using tags to structure content.
+
+🔹 Features of HTML:
+It is a markup language, not a programming language.
+It is used to structure content on the web.
+HTML uses tags (e.g., <p>, <h1>, <a>) to define different types of content.
+HTML is platform-independent (works on all browsers).
+It is the backbone of all websites.
+
+
+what is and Html Tag? ------------------------------------------->
+
+An HTML tag is a special keyword enclosed within angle brackets < > that is used to define the structure and content of a webpage.
+
+Tags tell the browser how to display the content — such as text, images, links, or headings.

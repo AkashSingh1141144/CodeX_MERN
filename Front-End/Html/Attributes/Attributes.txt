@@ -1,0 +1,22 @@
+Attributes are used to add extra information to HTML tags.
+They are always written inside the opening tag.
+They are written as:
+👉 name="value"
+
+Example
+<tagname attribute="value">Content</tagname>
+
+
+Common HTML Attributes (with examples)
+Attribute	Purpose	Example
+id ->	Unique name for an element	-> <p id="intro">Hello</p>
+class ->	Used to group elements ->	<div class="box">Content</div>
+href ->	URL of a link ->	<a href="https://google.com">Google</a>
+src  ->	Source of image  ->	<img src="image.jpg" alt="pic">
+alt	  -> Alternate text for image  ->	<img src="image.jpg" alt="My Image">
+style ->	Inline CSS styling ->	<p style="color:red;">Red Text</p>
+title ->	Tooltip text ->	<p title="Hello Tooltip!">Hover me</p>
+width / height ->	Size of elements ->	<img src="car.png" width="300">
+target ->	Open link in new tab ->	<a href="url" target="_blank">Visit</a>
+type ->	Input or script type ->	<input type="text">
+

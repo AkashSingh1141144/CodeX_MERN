@@ -1,0 +1,32 @@
+Feature	Description
+Semantic Tags ->	<main>, <header>, <section>
+Multimedia ->	<video>, <audio>
+Form Inputs ->	email, date, range etc.
+Graphics ->	<canvas>, <svg>
+Storage ->	localStorage, sessionStorage
+Location ->	navigator.geolocation
+Mobile Support -> 	Responsive meta tags
+
+
+🔹 Responsive Design Features
+HTML5 works well with:
+Media Queries
+Viewport meta tag
+Flexbox & Grid Layouts
+
+
+🔹 Geolocation API
+Get user's current location (with permission)
+
+🔹 Web Storage (Local Storage)
+Stores data on user's browser instead of cookies.
+
+
+🔹 Canvas and SVG (Graphics)
+<canvas> → Used for drawing 2D graphics using JavaScript.
+<svg> → Used for scalable vector graphics (lines, shapes).
+
+
+🔹 Multimedia Support (No Plugins)
+🖼️ <video> and <audio>
+You can now embed video and audio without Flash!

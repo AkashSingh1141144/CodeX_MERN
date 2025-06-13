@@ -1,0 +1,30 @@
+✅ What is a Heading in HTML?
+Headings in HTML are used to define the titles or subtitles on a web page.
+
+They help:
+Make content easy to read,
+Organize the structure of the page,
+Improve SEO (Search Engine Optimization).
+
+🔹 HTML Provides 6 Levels of Headings:
+Tag	Meaning	Size (Browser Default)
+<h1>	Main heading (biggest)	Largest
+<h2>	Sub-heading	Smaller
+<h3>	Sub-sub-heading	Smaller
+<h4>	Level 4 heading	Smaller
+<h5>	Level 5 heading	Smaller
+<h6>	Smallest heading	Smallest
+
+
+📌 Notes for Exams:
+Use only one <h1> per page (main title).
+Use headings in order to show structure.
+Do not use headings just for making text bold or big — use them for meaningful sections.
+
+🧠 Tip:
+Think of headings like a book:
+<h1> = Book Title
+<h2> = Chapter Title
+<h3> = Section inside chapter
+
+And so on...

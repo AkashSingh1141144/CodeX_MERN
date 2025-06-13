@@ -1,0 +1,5 @@
+✅ What is a Paragraph in HTML?
+The <p> tag is used to define a paragraph of text in HTML.
+
+It is a block-level element, which means it starts on a new line and adds some space before and after it automatically.
+

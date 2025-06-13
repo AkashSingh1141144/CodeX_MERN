@@ -1,0 +1,95 @@
+HTML tags are special keywords surrounded by angle brackets (< >) used to define and structure content on a webpage.
+
+✅ Where HTML Tags Are Used?
+In web development
+In creating emails, documents, and web templates
+Used by browsers to display structured content
+
+
+✅ Types
+✅ 1. Document Structure Tags
+Tag	Description
+<!DOCTYPE html>	Declares HTML5 document
+<html>	Root of the HTML page
+<head>	Contains metadata
+<body>	Contains visible page content
+
+✅ 2. Metadata Tags (inside <head>)
+Tag	Description
+<title>	Title in browser tab
+<meta>	Metadata (charset, description, etc.)
+<link>	Link external CSS
+<style>	Internal CSS
+<script>	JavaScript code
+
+✅ 3. Text Formatting Tags
+Tag	Description
+<h1> to <h6>	Headings
+<p>	Paragraph
+<br>	Line break
+<hr>	Horizontal line
+<b> / <strong>	Bold
+<i> / <em>	Italic
+<u>	Underlined text
+<mark>	Highlight text
+<small>	Smaller text
+<del>	Deleted text
+<ins>	Inserted text
+<sub> / <sup>	Subscript / Superscript
+
+✅ 4. Link and Media Tags
+Tag	Description
+<a>	Anchor / hyperlink
+<img>	Image
+<audio>	Audio file
+<video>	Video file
+<source>	Media source
+
+✅ 5. List Tags
+Tag	Description
+<ul>	Unordered list
+<ol>	Ordered list
+<li>	List item
+<dl>	Definition list
+<dt>	Term
+<dd>	Description
+
+✅ 6. Table Tags
+Tag	Description
+<table>	Table
+<tr>	Table row
+<th>	Table header
+<td>	Table data
+<caption>	Table caption
+<thead> / <tbody> / <tfoot>	Table parts
+
+✅ 7. Form Tags
+Tag	Description
+<form>	Form container
+<input>	Input field
+<textarea>	Multi-line input
+<button>	Button
+<select>	Dropdown
+<option>	Options inside dropdown
+<label>	Label for input
+
+✅ 8. Semantic Layout Tags
+Tag	Description
+<header>	Header section
+<footer>	Footer section
+<nav>	Navigation links
+<main>	Main content
+<section>	Section of content
+<article>	Independent article
+<aside>	Sidebar content
+
+✅ 9. Grouping and Container Tags
+Tag	Description
+<div>	Block-level container
+<span>	Inline container
+
+✅ 10. Script & Style Tags
+Tag	Description
+<style>	Internal CSS
+<script>	JavaScript
+<noscript>	Message if JavaScript is disabled
