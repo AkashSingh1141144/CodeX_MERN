@@ -1,0 +1,29 @@
+CSS height and width properties are used to define the size of an HTML element’s content area.
+
+🔹 1. width
+Sets the horizontal size of an element.
+Can be defined in:
+px (fixed)
+% (relative to parent)
+em, rem, vw (viewport width), etc.
+
+🔹 2. height
+Sets the vertical size of an element.
+Units same as width: px, %, vh (viewport height), etc.
+
+🔹 3. max-width / max-height
+Sets the maximum allowed size.
+Useful for making layouts responsive.
+Prevents elements from growing beyond a certain point.
+
+🔹 4. min-width / min-height
+Sets the minimum size of an element.
+Prevents elements from shrinking below a certain point.
+
+🔹 5. auto (default value)
+The browser automatically determines the size based on content or context.
+
+🔹 6. box-sizing
+Controls whether padding and border are included in the total size:
+content-box (default): width/height includes only content
+border-box: includes content + padding + border

@@ -1,0 +1,48 @@
+In CSS, color is used to define the text color, background, borders, and more. It's a key part of styling and design.
+
+🔵 1. Color Properties in CSS
+Here are the most commonly used CSS properties related to color:
+
+Property ->	Purpose
+color ->	Sets the text color
+background-color	->  Sets the background color
+border-color  ->	Sets the color of borders
+
+🎨 2. Ways to Define Colors
+There are several ways to specify colors in CSS:
+
+1. Color Names
+Use predefined color names like:
+red, blue, green, black, white, orange, etc.
+➡️ Easy to use but limited options.
+
+2. HEX Codes
+A 6-digit code beginning with #, representing red, green, and blue.
+Example: #FF0000 for red
+➡️ Used for web-safe, consistent color values.
+
+3. RGB (Red, Green, Blue)
+Use numeric values between 0 and 255:
+Example: rgb(255, 0, 0) → red
+➡️ Offers more control than color names.
+
+4. RGBA (RGB + Alpha)
+Same as RGB but includes alpha for transparency:
+Example: rgba(255, 0, 0, 0.5) → semi-transparent red
+➡️ Used for layered and transparent UI elements.
+
+5. HSL (Hue, Saturation, Lightness)
+Colors based on hue angle (0–360), percentage saturation, and lightness:
+Example: hsl(0, 100%, 50%) → red
+➡️ Easier to adjust brightness or tone.
+
+6. HSLA (HSL + Alpha)
+Same as HSL with transparency:
+Example: hsla(120, 100%, 50%, 0.3) → semi-transparent green
+
+🌟 3. Additional Notes for Interview
+The currentColor keyword allows you to reuse the current text color.
+transparent is a keyword that makes an element fully transparent.
+
+CSS variables (custom properties) can store colors:
+--primary-color: #3498db;

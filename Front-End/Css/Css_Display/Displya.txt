@@ -1,0 +1,29 @@
+The display property controls how elements appear in the layout. It defines if they behave as block, inline, flex, or grid containers. It’s key for responsive designs and structuring layouts. Using display effectively is essential for modern CSS development
+
+🔹 Common display Values
+1. block
+Starts on a new line and takes up the full width.
+Examples: <div>, <p>, <section>
+
+2. inline
+Flows inline with text and takes only as much width as needed.
+Cannot set width, height, margin-top/bottom, or padding-top/bottom.
+
+3. inline-block
+Like inline, but allows setting width, height, padding, and margin.
+
+4. none
+The element is not rendered at all (invisible and removed from layout).
+Often used for hiding elements (like menus, modals).
+
+5. flex
+Turns the element into a flex container.
+Used to lay out children in a flexible row or column.
+
+6. grid
+Turns the element into a grid container.
+Useful for building complex two-dimensional layouts.
+
+7. inline-flex / inline-grid
+Same as flex/grid, but behaves like an inline element.
+

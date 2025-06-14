@@ -1,0 +1,10 @@
+✅ 1. What is CSS?
+CSS stands for Cascading Style Sheets.
+It is used to style and layout HTML elements, such as colors, fonts, spacing, positioning, and responsiveness.
+
+✅ 2. Types of CSS
+Interview Question: What are the types of CSS?
+Inline CSS – written inside an HTML tag using the style attribute.
+Internal CSS – written inside a <style> tag in the <head> section.
+External CSS – written in a separate .css file and linked via <link> tag.
+

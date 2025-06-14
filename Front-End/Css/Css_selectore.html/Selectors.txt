@@ -1,0 +1,59 @@
+✅ 1. Simple Selectors
+These are the most basic CSS selectors and are used to select HTML elements by their name, class, or ID.
+
+Element Selector: Targets all HTML elements of a specific type (e.g., all <p> tags).
+
+Class Selector: Selects all elements that have a specific class attribute. It is reusable across multiple elements.
+
+ID Selector: Selects a single, unique element with a specific ID. An ID must be unique within a page.
+
+🔸 These selectors are the foundation of CSS styling and are used most frequently.
+
+
+
+✅ 2. Combinator Selectors
+These selectors are used to select elements based on their relationship to other elements in the HTML structure.
+
+Descendant Selector: Selects elements that are nested inside a specific element, at any depth.
+
+Child Selector: Selects only the direct children of an element.
+
+Adjacent Sibling Selector: Selects an element that comes immediately after a specific element (same parent).
+
+General Sibling Selector: Selects all sibling elements that come after a specified element.
+
+🔸 Combinators are essential for targeting specific elements in nested structures.
+
+
+
+✅ 3. Pseudo-Class Selectors
+Pseudo-classes define the special state of an element.
+
+Examples include :hover, :focus, :first-child, :nth-child(), etc.
+
+They allow you to style elements dynamically — for example, when a user hovers over a link or focuses on an input field.
+
+🔸 Pseudo-classes are useful for interaction-based styling and structural selection.
+
+
+
+
+✅ 4. Pseudo-Element Selectors
+Pseudo-elements allow you to style specific parts of an element’s content.
+
+Examples include ::before, ::after, ::first-line, and ::first-letter.
+
+These do not change the content but allow you to insert or style virtual content visually.
+
+🔸 They are ideal for adding decorative or formatting touches without extra HTML.
+
+
+
+✅ 5. Attribute Selectors
+Attribute selectors target elements based on the presence or value of their attributes.
+
+For example, you can select all elements with a type attribute or all links that open in a new tab.
+
+These are especially useful in forms or dynamic components.
+
+🔸 They provide flexibility in targeting elements with specific behavior or properties.

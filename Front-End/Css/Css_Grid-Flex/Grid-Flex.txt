@@ -1,0 +1,2 @@
+CSS Grid is a 2D layout system that gives control over both rows and columns. It allows developers to create complex, responsive layouts with less code compared to float or flex. Using grid-template, gap, and fractional units (fr), we can build precise and adaptable UI designs
+

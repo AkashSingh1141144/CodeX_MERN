@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Css Selectors</title>
+	<style>
+		/* Element Selector */
+		h1 {
+			color: orangered;
+			font-size: 50px;
+			text-align: center;
+		}
+
+		/* Class Selector */
+		.akash {
+			background-color: lightblue;
+			border: 2px solid black;
+			padding: 20px;
+			text-align: center;
+		}
+
+		/* ID Selector */
+		#akash {
+			color: green;
+			font-size: 30px;
+			text-align: center;
+			border: 2px solid black;
+			padding: 10px;
+		}
+
+		/* Universal Selector */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+
+		/* Descendent Selector */
+		div h1 {
+			color: blue;
+			font-size: 40px;
+			text-align: center;
+		}
+
+		/* Child Selector */
+		div > h1 {
+			color: purple;
+			font-size: 35px;
+			text-align: center;
+		}
+
+
+		/* Sibling Selector */
+		h1 + p {
+			color: darkorange;
+			font-size: 20px;
+			text-align: center;
+		}
+
+
+		/* Pseudo Selector */
+		h1:hover {
+			color: red;
+			text-decoration: underline;
+		}
+
+		a:visited {
+			color: red;
+			text-decoration: none;
+		}
+		a:link{
+			color: yellow;
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- Element Selector Example -->
+	<h1>Hello Sandhya babe</h1>/
+
+	<!-- Class Selector Example -->
+	 <div class="akash">
+		<h1>Akash Singh</h1>
+	 </div>
+
+	<!-- ID Selector Example -->
+	 <div>
+		<h1 id="akash">Hello babe</h1>
+	 </div>
+
+	 <!-- Universal Selector Example -->
+      <div>
+		<h1>* Selector Example</h1>
+		<p>This is an example of the universal selector (*) which applies styles to all elements.</p>
+	  </div>
+
+	  <!-- Descendent Selector Example -->
+	   <div>
+			<h1>Descendent Selectore Example</h1>
+	   </div>
+
+	   <!-- Child Selector Example -->
+	   <div>
+			<h1>Child Selector Example</h1>
+			<p>This is an example of the child selector (&gt;) which applies styles to direct children of an element.</p>
+	   </div>
+
+	   <!-- Sibling Selector Example -->
+		<div>
+			<h1>Sibling Selector Example</h1>
+			<p>This is an example of the sibling selector (+) which applies styles to elements that are siblings of a specified element.</p>
+		</div>
+
+
+		<!-- Psuedo Selector Example -->
+		 <div>
+			<h1>Pseudo Selector Example</h1>
+			<p>This is an example of a pseudo selector (:hover) which applies styles when the mouse hovers over an element.</p>
+		 </div>
+		 <a href="https://www.google.com/">Go to google</a>
+		 <a href="https://www.facebook.com">Go to Facebook</a>
+</body>
+</html>

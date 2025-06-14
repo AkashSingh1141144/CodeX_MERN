@@ -1,0 +1,43 @@
+“CSS text properties control how text looks and behaves in the layout. They manage alignment, spacing, decoration, transformation, and direction. Proper use improves user experience and accessibility.”
+
+🔹 1. color
+Sets the color of the text.
+Example: color: red;
+
+🔹 2. text-align
+Controls horizontal alignment of text.
+Values: left, right, center, justify
+Used on block-level containers.
+
+🔹 3. text-decoration
+Adds or removes decoration lines.
+Values:
+none: removes decoration (default)
+underline
+overline
+line-through
+
+🔹 4. text-transform
+Controls capitalization.
+Values:
+uppercase
+lowercase
+capitalize
+
+🔹 5. letter-spacing
+Adjusts space between letters.
+
+🔹 6. word-spacing
+Adjusts space between words.
+
+🔹 7. line-height
+Sets the vertical space between lines of text.
+Improves readability, especially in paragraphs.
+
+🔹 8. text-indent
+Indents the first line of a paragraph.
+
+🔹 9. direction
+Sets the text direction.
+Values: ltr (left-to-right), rtl (right-to-left)
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Margin Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .box {
+      background-color: white;
+      padding: 20px;
+      border: 2px solid #000;
+    }
+
+    .margin-all {
+      margin: 30px;
+    }
+
+    .margin-two {
+      margin: 20px 50px;
+    }
+
+    .margin-four {
+      margin: 10px 30px 50px 70px;
+    }
+
+    .margin-auto {
+      width: 300px;
+      margin: 20px auto;
+    }
+
+    .negative-margin {
+      margin-top: -10px;
+    }
+
+    .individual-margin {
+      margin-top: 15px;
+      margin-right: 25px;
+      margin-bottom: 35px;
+      margin-left: 45px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box margin-all">1. Margin on all sides (30px)</div>
+
+  <div class="box margin-two">2. Margin top-bottom: 20px, left-right: 50px</div>
+
+  <div class="box margin-four">3. Margin (top: 10px, right: 30px, bottom: 50px, left: 70px)</div>
+
+  <div class="box margin-auto">4. Centered using `margin: auto`</div>
+
+  <div class="box negative-margin">5. Negative margin-top (-10px)</div>
+
+  <div class="box individual-margin">6. Individual margins </div>
+
+</body>
+</html>

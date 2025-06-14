@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Colors Example</title>
+  <style>
+    .color-name {
+      color: red;
+    }
+
+    .hex-color {
+      color: #00ff00;
+    }
+
+    .rgb-color {
+      color: rgb(0, 0, 255);
+    }
+
+    .rgba-color {
+      color: rgba(255, 0, 0, 0.5);
+      background-color: #bab5b5;
+      padding: 5px;
+    }
+
+    .hsl-color {
+      color: hsl(240, 100%, 50%);
+    }
+
+    .hsla-color {
+      color: hsla(120, 100%, 25%, 0.5);
+      background-color: lightgray;
+      padding: 5px;
+    }
+
+    .transparent-box {
+      background-color: transparent;
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    .current-color {
+      color: purple;
+      border: 2px solid currentColor;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSS Color Examples</h2>
+
+  <p class="color-name">1. This text uses a color name (red).</p>
+  <p class="hex-color">2. This text uses HEX color (#00ff00).</p>
+  <p class="rgb-color">3. This text uses RGB (rgb(0, 0, 255)).</p>
+  <p class="rgba-color">4. This text uses RGBA with transparency.</p>
+  <p class="hsl-color">5. This text uses HSL (hsl(240, 100%, 50%)).</p>
+  <p class="hsla-color">6. This text uses HSLA with transparency.</p>
+  <p class="transparent-box">7. This box has a transparent background.</p>
+  <p class="current-color">8. This uses currentColor for the border.</p>
+
+</body>
+</html>

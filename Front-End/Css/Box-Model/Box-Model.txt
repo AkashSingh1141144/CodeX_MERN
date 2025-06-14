@@ -1,0 +1,35 @@
+Each HTML element is treated as a rectangular box, which consists of the following four parts (from innermost to outermost):
+
+Content
+The actual text, image, or other content inside the element.
+
+Padding
+Space inside the box, between the content and the border.
+
+Border
+A line that wraps around the padding and content.
+
+Margin
+Space outside the border, separating the element from others.
+
+🔷 Visualization (from inside to outside):
++----------------------------+   ← margin
+|      (Border Area)        |
+|  +----------------------+ |   ← padding
+|  |     Content Area     | |
+|  +----------------------+ |
++----------------------------+
+
+🔷 Box Model Types
+1. box-sizing: content-box (default)
+width and height include only the content.
+Padding and border are added outside.
+
+2. box-sizing: border-box
+width and height include content + padding + border.
+Helps with consistent sizing in layouts.
+
+🔷 Why Important in Interview:
+Helps explain spacing issues, alignment, and layout bugs.
+Used in all modern layouts: grids, flexbox, responsive design.
+

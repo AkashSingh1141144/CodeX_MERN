@@ -1,0 +1,8 @@
+An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".
+
+3. Common Properties
+outline-style: solid, dashed, dotted, double, none, etc.
+outline-width: thickness of the line (e.g., 1px, thick)
+outline-color: color of the outline (e.g., red, #000)
+outline: shorthand for all three (width style color)
+outline-offset: distance between the border and the outline

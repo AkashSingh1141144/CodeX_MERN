@@ -1,0 +1,52 @@
+CSS background properties are used to define the background style of elements, such as color, images, positioning, and size.
+
+🔹 1. background-color
+Sets the background color of an element.
+Accepts named colors, HEX, RGB, RGBA, HSL, HSLA, etc.
+📌 Example: background-color: lightblue;
+
+🔹 2. background-image
+Adds an image as the background of an element.
+Syntax: background-image: url("image.jpg");
+
+🔹 3. background-repeat
+Controls if/how the background image repeats.
+Values:
+repeat (default)
+no-repeat
+repeat-x / repeat-y
+
+🔹 4. background-position
+Sets the starting position of a background image.
+Values: top, center, bottom, left, right, or coordinates (e.g. 50px 100px)
+
+🔹 5. background-size
+Specifies the size of the background image.
+Values:
+auto
+cover (scales image to cover entire element)
+contain (scales to fit the element)
+
+🔹 6. background-attachment
+Sets if the background scrolls with the page or stays fixed.
+Values:
+scroll (default)
+fixed
+local
+
+
+🔹 7. background-shorthand
+To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+
+🔹sipmle way ->
+body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+🔹Using shorthand
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}

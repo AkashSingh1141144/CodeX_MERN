@@ -1,0 +1,24 @@
+CSS padding defines the space between the content of an element and its border. It controls the internal spacing within an element.
+
+🔹 1. padding
+Shorthand to set padding on all four sides: top, right, bottom, and left.
+Syntax:
+padding: 20px; → all sides equal
+padding: 10px 30px; → top & bottom: 10px, left & right: 30px
+padding: 5px 10px 15px 20px; → top, right, bottom, left (clockwise)
+
+🔹 2. padding-top / padding-right / padding-bottom / padding-left
+Set padding individually on each side.
+
+🔹 3. Unit Types
+Accepts values in px, em, %, rem, etc.
+
+🔹 4. Percentage Padding
+When using percentage values, the padding is calculated based on the width of the containing block.
+
+🔹 5. No Negative Padding
+Unlike margins, padding cannot be negative.
+
+🔹 6. Box Model Role
+Padding increases the element’s box size, unless box-sizing: border-box is applied.
+

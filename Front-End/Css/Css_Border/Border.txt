@@ -1,0 +1,40 @@
+CSS border is used to define the outline around an HTML element. It helps visually separate or highlight elements.
+
+🔹 1. border-style
+Defines the type of border line to be used.
+Common values:
+none
+solid
+dashed
+dotted
+double
+groove, ridge, inset, outset
+
+🔹 2. border-width
+Specifies the thickness of the border.
+Values:
+Keywords like thin, medium, thick
+Specific values like 2px, 5px, etc.
+
+🔹 3. border-color
+Sets the color of the border.
+Values:
+Any valid color format (named colors, HEX, RGB, HSL, etc.)
+
+🔹 4. border (shorthand)
+A short way to write border-width, border-style, and border-color in one line.
+Syntax:
+border: 2px solid red;
+
+
+🔹 5. Individual Borders
+You can style each side of the border separately:
+border-top
+border-right
+border-bottom
+border-left
+
+🔹 6. border-radius
+Rounds the corners of an element.
+Values:
+10px, 50% etc.
