@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Overflow Example</title>
+  <style>
+    .box {
+      width: 250px;
+      height: 150px;
+      border: 2px solid black;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .visible-box {
+      overflow: visible;
+    }
+
+    .hidden-box {
+      overflow: hidden;
+    }
+
+    .scroll-box {
+      overflow: scroll;
+    }
+
+    .auto-box {
+      overflow: auto;
+    }
+
+    .content {
+      width: 400px;
+      height: 200px;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <h2>CSS Overflow Examples</h2>
+  <div class="box visible-box">
+    <div class="content">overflow: visible</div>
+  </div>
+  <div class="box hidden-box">
+    <div class="content">overflow: hidden</div>
+  </div>
+  <div class="box scroll-box">
+    <div class="content">overflow: scroll</div>
+  </div>
+  <div class="box auto-box">
+    <div class="content">overflow: auto</div>
+  </div>
+</body>
+</html>

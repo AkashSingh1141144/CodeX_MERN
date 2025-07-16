@@ -1,0 +1,1 @@
+opacity in CSS controls how transparent an element is. It takes a value between 0 and 1. It applies to the entire element, including its content. If we only want the background to be transparent, we should use rgba() or hsla() instead.

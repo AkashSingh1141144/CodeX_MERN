@@ -1,0 +1,7 @@
+The overflow property controls what happens when content is too big to fit inside its container.
+
+Types ->
+hidden
+visible
+scroll
+auto

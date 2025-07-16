@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>z-index Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+
+    .container {
+      position: relative;
+      width: 400px;
+      height: 300px;
+      border: 2px solid black;
+    }
+
+    .box {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      color: white;
+      text-align: center;
+      line-height: 200px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .box1 {
+      background-color: red;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    .box2 {
+      background-color: blue;
+      top: 40px;
+      left: 60px;
+      z-index: 3; /* This box appears on top */
+    }
+
+    .box3 {
+      background-color: green;
+      top: 80px;
+      left: 120px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>z-index Demo (Higher value = in front)</h2>
+  <div class="container">
+    <div class="box box1">Z-1</div>
+    <div class="box box2">Z-3</div>
+    <div class="box box3">Z-2</div>
+  </div>
+
+</body>
+</html>

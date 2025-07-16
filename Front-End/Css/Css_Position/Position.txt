@@ -1,0 +1,62 @@
+The position property in CSS is used to define how an element is positioned in the document flow. There are five main values: static, relative, absolute, fixed, and sticky. Each has different behavior in terms of placement and layout.
+
+1. static (default position)
+This is the normal position of every element.
+You cannot move it using top, left, right, or bottom.
+
+📌 Example:
+.box {
+  position: static;
+}
+➡️ It stays where it is, like a regular paragraph or image.
+
+2. relative
+The element stays in the same place as normal, but now you can move it a little using top, left, etc.
+It still takes space in the layout.
+
+📌 Example:
+.box {
+  position: relative;
+  top: 20px;   /* Move down 20px */
+  left: 10px;  /* Move right 10px */
+}
+➡️ It's like telling: "Move this box a little from its normal place."
+
+3. absolute
+The element is removed from normal flow (like floating).
+It will be placed based on its nearest positioned parent (not static).
+
+📌 Example:
+.container {
+  position: relative;
+}
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+➡️ This will stick the .box to the top-left corner inside .container.
+
+4. fixed
+The element is fixed to the screen.
+Even if you scroll, it stays there.
+
+📌 Example:
+.box {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+➡️ Always shows in the top-right corner of the screen (used in sticky headers or back-to-top buttons).
+
+5. sticky
+It acts like relative at first.
+But when you scroll, it becomes fixed.
+
+📌 Example:
+.box {
+  position: sticky;
+  top: 0;
+}
+➡️ Useful for sticky headings while scrolling a page.
+

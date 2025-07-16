@@ -1,0 +1,28 @@
+CSS Animation is a technique that allows HTML elements to change their style or position over time without using JavaScript. We define keyframes using @keyframes, and then apply those animations using the animation properties on an element. This is useful for creating smooth UI effects like sliding, fading, rotating, or loading indicators
+
+
+"To control the animation, we use several key properties:------------
+animation-name: links to the @keyframes block.
+animation-duration: how long the animation runs.
+animation-timing-function: controls the speed curve like ease, linear.
+animation-delay: waits before animation starts.
+animation-iteration-count: how many times the animation repeats (1, infinite).
+animation-direction: like alternate to reverse back and forth.
+animation-fill-mode: applies styles before/after the animation (e.g. forwards).
+Or we use animation shorthand to combine them all."
+
+
+Animation Name	What It Does
+fadeIn---	Fades in an element
+fadeOut----	Fades out an element
+slideInLeft ----	Slides in from the left
+slideOutRight----	Slides out to the right
+bounce----	Makes the element bounce
+zoomIn----	Zooms in the element
+zoomOut-----	Zooms out the element
+flipInX----	Flips from X-axis
+rotateIn----	Rotates element while fading in
+pulse----	--Grows and shrinks repeatedly
+shakeX-----	Shakes side-to-side
+flash----	Blinks quickly
+hinge----	Drops the element as if from a hinge

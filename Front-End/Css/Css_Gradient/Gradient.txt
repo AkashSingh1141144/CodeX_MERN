@@ -1,0 +1,9 @@
+CSS gradients let us create smooth transitions between colors using linear-gradient, radial-gradient, and conic-gradient. They improve design without loading external images and support multiple color stops and angles
+
+| Type              | Description                                |
+| ----------------- | ------------------------------------------ |
+| `linear-gradient` | Colors transition in a straight line       |
+| `radial-gradient` | Colors transition from a central point     |
+| `conic-gradient`  | Colors rotate around a center (like a pie) |
+
+we can use this in background-image property as background image;

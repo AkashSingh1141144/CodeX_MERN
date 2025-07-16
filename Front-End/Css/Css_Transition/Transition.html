@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Transition Timing Functions</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 30px;
+    }
+
+    .row {
+      margin-bottom: 20px;
+    }
+
+    .label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .box {
+      width: 100px;
+      height: 50px;
+      background-color: steelblue;
+      transition: transform 1s;
+    }
+
+    .container:hover .linear   { transform: translateX(300px); transition-timing-function: linear; }
+    .container:hover .ease     { transform: translateX(300px); transition-timing-function: ease; }
+    .container:hover .ease-in  { transform: translateX(300px); transition-timing-function: ease-in; }
+    .container:hover .ease-out { transform: translateX(300px); transition-timing-function: ease-out; }
+    .container:hover .ease-in-out { transform: translateX(300px); transition-timing-function: ease-in-out; }
+    .container:hover .steps    { transform: translateX(300px); transition-timing-function: steps(5, end); }
+    .container:hover .bezier   { transform: translateX(300px); transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55); }
+
+    .container {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSS Transition Timing Functions</h2>
+  <p>Hover to see different timing functions in action 🎯</p>
+
+  <div class="container">
+    <div class="row">
+      <div class="label">linear</div>
+      <div class="box linear"></div>
+    </div>
+    <div class="row">
+      <div class="label">ease</div>
+      <div class="box ease"></div>
+    </div>
+    <div class="row">
+      <div class="label">ease-in</div>
+      <div class="box ease-in"></div>
+    </div>
+    <div class="row">
+      <div class="label">ease-out</div>
+      <div class="box ease-out"></div>
+    </div>
+    <div class="row">
+      <div class="label">ease-in-out</div>
+      <div class="box ease-in-out"></div>
+    </div>
+    <div class="row">
+      <div class="label">steps(5, end)</div>
+      <div class="box steps"></div>
+    </div>
+    <div class="row">
+      <div class="label">cubic-bezier(0.68, -0.55, 0.27, 1.55)</div>
+      <div class="box bezier"></div>
+    </div>
+  </div>
+
+</body>
+</html>
